@@ -1,0 +1,72 @@
+[
+  {
+    "UtcTime": "2026-07-01T14:02:10.900Z",
+    "EventID": 3,
+    "Computer": "WKSTN-ALPHA-01",
+    "User": "CORP\\jdoe.synthetic",
+    "Image": "C:\\Users\\jdoe.synthetic\\AppData\\Local\\Temp\\updater.exe",
+    "ProcessId": 4312,
+    "SourceIp": "10.0.5.21",
+    "SourcePort": 49712,
+    "DestinationIp": "192.0.2.44",
+    "DestinationPort": 443,
+    "Protocol": "tcp"
+  },
+  {
+    "UtcTime": "2026-07-01T14:03:01.200Z",
+    "EventID": 3,
+    "Computer": "WKSTN-BRAVO-02",
+    "User": "CORP\\asmith.synthetic",
+    "Image": "C:\\ProgramData\\synthtool\\beacon.exe",
+    "ProcessId": 5120,
+    "SourceIp": "10.0.5.34",
+    "SourcePort": 50110,
+    "DestinationIp": "198.51.100.17",
+    "DestinationPort": 8080,
+    "Protocol": "tcp"
+  },
+  {
+    "UtcTime": "2026-07-01T14:02:08.410Z",
+    "EventID": 1,
+    "Computer": "WKSTN-ALPHA-01",
+    "User": "CORP\\jdoe.synthetic",
+    "Image": "C:\\Users\\jdoe.synthetic\\AppData\\Local\\Temp\\updater.exe",
+    "CommandLine": "updater.exe --silent --connect 192.0.2.44",
+    "ProcessId": 4312
+  },
+  {
+    "UtcTime": "2026-07-01T14:06:19.850Z",
+    "EventID": 3,
+    "Computer": "WKSTN-CHARLIE-03",
+    "User": "CORP\\mlee.synthetic",
+    "Image": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+    "ProcessId": 6033,
+    "SourceIp": "10.0.5.60",
+    "SourcePort": 51230,
+    "DestinationIp": "198.51.100.99",
+    "DestinationPort": 22,
+    "Protocol": "tcp"
+  },
+  {
+    "UtcTime": "2026-07-01T14:06:15.002Z",
+    "EventID": 1,
+    "Computer": "WKSTN-CHARLIE-03",
+    "User": "CORP\\mlee.synthetic",
+    "Image": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+    "CommandLine": "ssh.exe -p 22 demo@198.51.100.99",
+    "ProcessId": 6033
+  },
+  {
+    "UtcTime": "2026-07-01T14:09:58.700Z",
+    "EventID": 3,
+    "Computer": "WKSTN-DELTA-04",
+    "User": "CORP\\rkim.synthetic",
+    "Image": "C:\\Windows\\System32\\rundll32.exe",
+    "ProcessId": 7150,
+    "SourceIp": "10.0.5.75",
+    "SourcePort": 52444,
+    "DestinationIp": "203.0.113.10",
+    "DestinationPort": 445,
+    "Protocol": "tcp"
+  }
+]

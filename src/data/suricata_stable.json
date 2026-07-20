@@ -1,0 +1,78 @@
+[
+  {
+    "timestamp": "2026-07-01T14:02:11.104Z",
+    "flow_id": 1101,
+    "event_type": "alert",
+    "src_ip": "10.0.5.21",
+    "src_port": 49712,
+    "dest_ip": "192.0.2.44",
+    "dest_port": 443,
+    "proto": "TCP",
+    "app_proto": "tls",
+    "host": "sensor-nw-01",
+    "alert": { "signature": "SYNTH Suspicious TLS to test-net host", "severity": 2 }
+  },
+  {
+    "timestamp": "2026-07-01T14:03:02.551Z",
+    "flow_id": 1102,
+    "event_type": "alert",
+    "src_ip": "10.0.5.34",
+    "src_port": 50110,
+    "dest_ip": "198.51.100.17",
+    "dest_port": 8080,
+    "proto": "TCP",
+    "app_proto": "http",
+    "host": "sensor-nw-01",
+    "alert": { "signature": "SYNTH HTTP beacon pattern", "severity": 1 }
+  },
+  {
+    "timestamp": "2026-07-01T14:04:45.020Z",
+    "flow_id": 1103,
+    "event_type": "flow",
+    "src_ip": "10.0.5.21",
+    "src_port": 49800,
+    "dest_ip": "192.0.2.90",
+    "dest_port": 53,
+    "proto": "UDP",
+    "app_proto": "dns",
+    "host": "sensor-nw-01"
+  },
+  {
+    "timestamp": "2026-07-01T14:06:20.300Z",
+    "flow_id": 1104,
+    "event_type": "alert",
+    "src_ip": "10.0.5.60",
+    "src_port": 51230,
+    "dest_ip": "198.51.100.99",
+    "dest_port": 22,
+    "proto": "TCP",
+    "app_proto": "ssh",
+    "host": "sensor-nw-02",
+    "alert": { "signature": "SYNTH Outbound SSH to test-net host", "severity": 2 }
+  },
+  {
+    "timestamp": "2026-07-01T14:08:05.777Z",
+    "flow_id": 1105,
+    "event_type": "flow",
+    "src_ip": "10.0.5.34",
+    "src_port": 50990,
+    "dest_ip": "192.0.2.150",
+    "dest_port": 443,
+    "proto": "TCP",
+    "app_proto": "tls",
+    "host": "sensor-nw-02"
+  },
+  {
+    "timestamp": "2026-07-01T14:09:59.412Z",
+    "flow_id": 1106,
+    "event_type": "alert",
+    "src_ip": "10.0.5.75",
+    "src_port": 52444,
+    "dest_ip": "203.0.113.10",
+    "dest_port": 445,
+    "proto": "TCP",
+    "app_proto": "smb",
+    "host": "sensor-nw-02",
+    "alert": { "signature": "SYNTH SMB connection to external host", "severity": 3 }
+  }
+]

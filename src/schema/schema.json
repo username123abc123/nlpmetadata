@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "fields": [
+    {
+      "name": "@timestamp",
+      "description": "Time the event occurred, in ISO 8601 format",
+      "typeHints": ["timestamp"]
+    },
+    {
+      "name": "event.category",
+      "description": "High level event category such as network or process",
+      "typeHints": ["string"]
+    },
+    {
+      "name": "event.type",
+      "description": "Specific event type such as connection, alert, flow, or process creation",
+      "typeHints": ["string"]
+    },
+    {
+      "name": "src.ip",
+      "description": "Source IP address of the network connection, the client or originator address",
+      "typeHints": ["ip"]
+    },
+    {
+      "name": "src.port",
+      "description": "Source port number of the network connection, the client or originator port",
+      "typeHints": ["port"]
+    },
+    {
+      "name": "dst.ip",
+      "description": "Destination IP address of the network connection, the server or responder address",
+      "typeHints": ["ip"]
+    },
+    {
+      "name": "dst.port",
+      "description": "Destination port number of the network connection, the server or responder port",
+      "typeHints": ["port"]
+    },
+    {
+      "name": "network.transport",
+      "description": "Transport layer protocol such as tcp or udp",
+      "typeHints": ["string"]
+    },
+    {
+      "name": "network.protocol",
+      "description": "Application layer protocol such as http, dns, or tls",
+      "typeHints": ["string"]
+    },
+    {
+      "name": "host.name",
+      "description": "Hostname of the machine where the event was observed or generated",
+      "typeHints": ["hostname", "string"]
+    },
+    {
+      "name": "user.name",
+      "description": "Username or account name associated with the event",
+      "typeHints": ["username", "string"]
+    },
+    {
+      "name": "process.executable",
+      "description": "Full file path of the process executable image on disk",
+      "typeHints": ["path"]
+    },
+    {
+      "name": "process.command_line",
+      "description": "Full command line used to launch the process including arguments",
+      "typeHints": ["string"]
+    },
+    {
+      "name": "process.pid",
+      "description": "Process identifier number of the process",
+      "typeHints": ["number"]
+    },
+    {
+      "name": "event.severity",
+      "description": "Numeric severity or priority level of the alert or event",
+      "typeHints": ["number"]
+    },
+    {
+      "name": "rule.name",
+      "description": "Name or signature of the detection rule that produced the alert",
+      "typeHints": ["string"]
+    }
+  ]
+}

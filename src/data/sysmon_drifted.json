@@ -1,0 +1,72 @@
+[
+  {
+    "utc_time": "2026-07-01T14:02:10.900Z",
+    "EventID": 3,
+    "Hostname": "WKSTN-ALPHA-01",
+    "AccountName": "CORP\\jdoe.synthetic",
+    "ProcessImagePath": "C:\\Users\\jdoe.synthetic\\AppData\\Local\\Temp\\updater.exe",
+    "Pid": 4312,
+    "SrcIP": "10.0.5.21",
+    "SrcPortNumber": 49712,
+    "DstIP": "192.0.2.44",
+    "DstPortNumber": 443,
+    "TransportProto": "tcp"
+  },
+  {
+    "utc_time": "2026-07-01T14:03:01.200Z",
+    "EventID": 3,
+    "Hostname": "WKSTN-BRAVO-02",
+    "AccountName": "CORP\\asmith.synthetic",
+    "ProcessImagePath": "C:\\ProgramData\\synthtool\\beacon.exe",
+    "Pid": 5120,
+    "SrcIP": "10.0.5.34",
+    "SrcPortNumber": 50110,
+    "DstIP": "198.51.100.17",
+    "DstPortNumber": 8080,
+    "TransportProto": "tcp"
+  },
+  {
+    "utc_time": "2026-07-01T14:02:08.410Z",
+    "EventID": 1,
+    "Hostname": "WKSTN-ALPHA-01",
+    "AccountName": "CORP\\jdoe.synthetic",
+    "ProcessImagePath": "C:\\Users\\jdoe.synthetic\\AppData\\Local\\Temp\\updater.exe",
+    "ProcessCommandLine": "updater.exe --silent --connect 192.0.2.44",
+    "Pid": 4312
+  },
+  {
+    "utc_time": "2026-07-01T14:06:19.850Z",
+    "EventID": 3,
+    "Hostname": "WKSTN-CHARLIE-03",
+    "AccountName": "CORP\\mlee.synthetic",
+    "ProcessImagePath": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+    "Pid": 6033,
+    "SrcIP": "10.0.5.60",
+    "SrcPortNumber": 51230,
+    "DstIP": "198.51.100.99",
+    "DstPortNumber": 22,
+    "TransportProto": "tcp"
+  },
+  {
+    "utc_time": "2026-07-01T14:06:15.002Z",
+    "EventID": 1,
+    "Hostname": "WKSTN-CHARLIE-03",
+    "AccountName": "CORP\\mlee.synthetic",
+    "ProcessImagePath": "C:\\Windows\\System32\\OpenSSH\\ssh.exe",
+    "ProcessCommandLine": "ssh.exe -p 22 demo@198.51.100.99",
+    "Pid": 6033
+  },
+  {
+    "utc_time": "2026-07-01T14:09:58.700Z",
+    "EventID": 3,
+    "Hostname": "WKSTN-DELTA-04",
+    "AccountName": "CORP\\rkim.synthetic",
+    "ProcessImagePath": "C:\\Windows\\System32\\rundll32.exe",
+    "Pid": 7150,
+    "SrcIP": "10.0.5.75",
+    "SrcPortNumber": 52444,
+    "DstIP": "203.0.113.10",
+    "DstPortNumber": 445,
+    "TransportProto": "tcp"
+  }
+]
