@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 import type { Page } from 'playwright';
 
-const BASE = process.env.E2E_URL ?? 'http://localhost:4173/sum26project/';
+const BASE = process.env.E2E_URL ?? 'http://localhost:4173/nlpmetadata/';
 const results: { name: string; ok: boolean; detail?: string }[] = [];
 const check = (name: string, ok: boolean, detail?: string) => {
   results.push({ name, ok, detail });
